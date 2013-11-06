@@ -1,3 +1,0 @@
-
-
-{$HOOK_REFERRAL_PROGRAM}

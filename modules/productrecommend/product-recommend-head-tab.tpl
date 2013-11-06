@@ -1,1 +1,0 @@
-<div class="tab-page" id="step{$idTab}"><h4 class="tab">{$idTab}.&nbsp;{l s='Recommand' mod='productrecommand'}</h4></div>

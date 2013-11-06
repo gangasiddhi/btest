@@ -1,1 +1,0 @@
-<div class="tab-page" id="step{$idTab}"><h4 class="tab">{$idTab}.&nbsp;{l s='Tags' mod='taggingandfiltering'} ({$countTags})</h4></div>

@@ -1,6 +1,0 @@
-/*
-	jQuery Coda-Slider v1.1 - http://www.ndoherty.com/coda-slider
-	Modified by IB
-	Copyright (c) 2007 Niall Doherty
-*/
-eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('5 j=0;3.v.w=6(h){h=3.x({o:"y",p:A,B:C},h);D 7.9(6(){5 b=3(7);b.E("F").G("H");5 c=b.8("4.k").q();5 d=b.8("4.k").I();5 e=c*d;b.8("4.r").J("q",e);5 f=d*2;5 g=1;b.9(6(i){3(7).K("<4 L=\'l\' M=\'l"+j+"\'><m><\\/m><\\/4>");3(7).8("4.k").9(6(n){3("4#l"+j+" m").N("<s><a O=\'#"+(n+1)+"\'>"+3(7).P("Q")+"<\\/a><\\/s>")});3("4#l"+j+" a").9(6(z){3(7).R("S",6(){5 a=-(c*z);g=z+1;b.8("4.r").t({T:a},h.p,h.o);b.t({u:3(\'4.k:U(\'+(V(g)-1)+\')\',b).u()},"W")})})});j++})};',59,59,'|||jQuery|div|var|function|this|find|each|||||||||||panel|stripNav|ul||easeFunc|easeTime|width|panelContainer|li|animate|height|fn|codaSlider|extend|expoinout||750|toolTip|false|return|removeClass|csw|addClass|stripViewer|size|css|before|class|id|append|href|attr|title|bind|click|left|eq|parseInt|slow'.split('|'),0,{}))
