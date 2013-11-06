@@ -1,0 +1,30 @@
+#id_province, #id_state {
+    display:   block;
+}
+
+.add_error {
+    font-size:13px;
+    font-weight:normal;
+    color:red;
+    float:left;
+    display: inline-block;
+    position: absolute;
+    left: 186px;
+}
+p.phone .add_error{
+    top:22px;
+}
+
+.edit_address p {
+    position: relative;
+}
+
+.edit_address input, .edit_address select, .edit_address textarea {
+    display: block;
+}
+#submitAddress {
+    float: left;
+}
+#submitAddressForm, #submitcancelAddress, #regioncode, #phone {
+    display: inline-block;
+}

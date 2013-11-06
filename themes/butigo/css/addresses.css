@@ -1,0 +1,156 @@
+/* addresses.tpl styling begins here*/
+#shipping_address hr {
+    margin:25px 0 20px 0;
+}
+#shipping_address {
+    margin:0 0 0 0;
+    float:left;
+    width:600px;
+}
+.addresses {
+    float:left;
+    width:100%;
+}
+.addresses ul li {
+     list-style-type: none;
+}
+.address_list {
+    float:left;
+    width:50%;
+}
+.addresses ul.full_address li {
+     font-size: 1.1em;
+}
+.addresses ul.full_address span.address_title ,li.address_alias{
+    font-weight: bold;
+}
+ul.edit_addresses {
+    float:left;
+	width:100%;
+    margin: 15px 0;
+}
+ul.edit_addresses li {
+    margin:0 25px 0 0;
+    float: left;
+    height: 32px;
+    width:auto;
+}
+.no_address {
+    color: #F2018A;
+    font-size: 1.3em;
+    margin-top:30px;
+}
+.no_address a {
+   color: #F2018A;
+}
+/* addresses.tpl styling ends here*/
+
+/*address.tpl styling begins here*/
+.edit_address  {
+    margin:0 0 0 40px;
+    float:left;
+}
+.edit_address fieldset {
+    width:500px;
+}
+.edit_address fieldset label {
+	width:36%;
+    font-size: 0.9em;
+    float:left;
+}
+.edit_address fieldset p{
+    margin-top:20px;
+}
+/*.edit_address hr {
+    margin: 20px 0 10px;
+}*/
+.edit_address p.edit_adress_buttons input.button_medium {
+    margin-right: 15px;
+}
+.edit_address p.edit_adress_buttons {
+    float:left;
+    width:100%;
+    margin:0 0 10px 0;
+}
+/*address.tpl styling ends here*/
+
+/*order-address stlying begins here*/
+.Address {
+	margin: auto;
+	width:500px;
+}
+#address_label {
+    float: left;
+    width:100%;
+}
+#adress_display {
+	margin: auto;
+    width: 472px;
+}
+.shipping_addresss_payment {
+    float :left;
+    margin:15px 0 0 10px;
+}
+#order .addresses {
+	width: 200px;
+	margin: 15px 60px 0 0;
+}
+.addresses  select {
+    height: 20px;
+    text-align: center;
+    width: 155px;
+    font-size: 0.9em;
+}
+.addresses ul#address_delivery {
+	 margin: 10px 0 20px;
+}
+#address_invoice_form select {
+	margin: 0 0 0 35px;
+}
+.addresses .address_update {
+	margin: 3px 0 0;
+}
+#address_label span {
+	color:#f643c6;
+	font-size: 1.2em;
+}
+#order .addresses .address_update a,#order .addresses span {
+    color:#000;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+div.cart_adress {
+	float: left;
+    position: relative;
+    top: 60px;
+}
+/*.submit_address {
+	background: url("../img/buttons/new-adress.jpg") no-repeat 0 0;
+    height:40px;
+    width:212px;
+    float:left;
+}*/
+.submit_address2 {
+	background: url("../img/buttons/new-adress2.jpg") no-repeat 0 0;
+    height:25px;
+    width:139px;
+    float:left;
+}
+.error {
+    background-color: #DE4343;
+    border-color: #C43D3D;
+    color: #FFFFFF;
+/*    margin: 0 0 0 -40px;*/
+    padding: 15px 15px 38px;
+}
+/*order-address styling ends page*/
+
+.help_text {
+   font-size: 11px;
+}
+.edit_addresses a.buttonsmall{
+    padding: 1em 2em 0.8em;
+}
+input, textarea, select{
+    margin-top:-1px;
+}

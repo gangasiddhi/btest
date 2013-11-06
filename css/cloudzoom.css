@@ -1,0 +1,18 @@
+.cloud-zoom-lens {
+/*	border: 1px solid #D8D3D8;*/
+	margin:-1px;	/* Set this to minus the border thickness. */
+	background-color:#fff;
+	cursor:move;
+}
+.cloud-zoom-title {}
+.cloud-zoom-big {
+/*	border:1px solid #ccc;*/
+	overflow:hidden;
+	padding:1px;
+}
+.cloud-zoom-loading {
+	color:white;	
+	background:#222;
+	padding:3px;
+/*	border:1px solid #000;*/
+}

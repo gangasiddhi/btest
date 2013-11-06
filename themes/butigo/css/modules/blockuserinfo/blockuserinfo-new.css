@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'ProximaNovaBold';
+    src: url('../../res/ProximaNova-Bold.otf');
+}
+@font-face {
+    font-family: 'ProximaNovaRegular';
+    src: url('../../res/ProximaNova-Regular.otf');
+}
+#header-info {
+	float: left;
+    padding: 0;
+    width: 100%;
+}
+#user-info {
+	color: #555;
+    float: right;
+    text-align: right;
+    width: 100%;
+	font-size: 11px;
+    letter-spacing: 0.1em;
+}
+
+/* secondary navigation */
+#my-acc-cart {
+	float: right;
+	margin: 6px 0 0;
+    font-family: ProximaNovaRegular;
+	font-size: 12px;
+    text-transform: uppercase;
+    color:#7d7d7d;
+    letter-spacing:1px;
+}
+#my-acc-cart a {
+    color:#7d7d7d;
+}
+#my-acc-cart a:hover {
+    color:#000;
+}
+#invite-friends-link {
+    float: left;
+    margin-right: 40px;
+}
+#identity-menu {
+	width: 70px;
+	float: left;
+    margin: 0 40px 0 0;
+}
+#identity-menu > a {
+	background: transparent url("../../../img/buttons/arrow_down_grey.gif") no-repeat 100% 4px;
+    float: left;
+    width: 70px;
+}
+
+#my-acc {
+	display: none;
+	float: left;
+	clear: both;
+	position: relative;
+	z-index: 20001;
+	margin: 2px 0 0;
+}
+#my-acc ul {
+	background: url("../../../img/dropdown-bg.png") repeat scroll 0 0 transparent;
+	-webkit-box-shadow: 0px 1px 10px #333333;
+	-moz-box-shadow: 0px 1px 10px #333333;
+	box-shadow: 0px 1px 10px #333333;
+	float: left;
+	clear: both;
+	width: 135px;
+	height: 185px;
+	list-style-type: none;
+	position: relative;
+	padding: 2px 15px 10px 15px;
+}
+#my-acc ul li {
+	display: block;
+	float: left;
+	clear: both;
+	width: 100%;
+	padding: 10px 0 8px;
+    line-height: 1.2em;
+}
+#my-acc ul li a {
+    float: left;
+    height: 14px;
+	width: 100%;
+	line-height: 1.2em;
+    font-size: 13px;
+    font-weight: bold;
+	color:#fff;
+    letter-spacing:0;
+	text-transform: none;
+}
+#my-acc ul li a:hover {
+	color: #F2018A;
+}
+#my-acc ul li .addresses{
+    margin: 0;
+}
+
+/* shopping cart */
+#shopping-cart-top {
+	float: left;
+    font-family: ProximaNovaRegular;
+	font-size: 12px;
+    text-transform: uppercase;
+    color:#7d7d7d;
+    letter-spacing:1px;
+    height: 16px;
+}
+#shopping-cart-top-gad {
+    float:right;
+    font-family: ProximaNovaRegular;
+	font-size: 12px;
+    text-transform: uppercase;
+    color:#7d7d7d;
+    letter-spacing:1px;
+}
+#shopping-cart-top:hover, #shopping-cart-top-gad:hover, #shopping-cart-top-link:hover, #shopping-cart-top-span:hover {
+	background-position: 0 0;
+    color:#7d7d7d;
+}
+#shopping-cart-top-link, #shopping-cart-top-span, #shopping-cart-top-gad {
+    background: url("../../../img/buttons/cart-new.png") no-repeat 0 -24px;
+    padding:0 0 0 20px;
+    height: 15px;
+}
+#shopping-cart-top a {
+    color:#7d7d7d;
+}
+#shopping-cart-top a:hover {
+    color:#000;
+}

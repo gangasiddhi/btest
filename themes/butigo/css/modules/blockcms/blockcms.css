@@ -1,0 +1,72 @@
+/*header links styling begins here*/
+#header_links {
+	float:left;
+	margin: 40px 0 0 95px;
+}
+#header_links li {
+	display: inline;
+}
+.top-links ul li a {
+	background: url("../../../img/topnav-sprite.jpg") no-repeat 0 0;
+	float: left;
+	display: block;
+    font-weight: normal;
+    height: 13px;
+    overflow: hidden;
+    text-indent: -99990px;
+    white-space: nowrap;
+	margin: 0 20px 0 0;
+}
+.top-links ul li a.cms_14 {
+    width: 107px;
+}
+.top-links ul li a.stylists {
+    background-position: -126px 0;
+    width: 150px;
+}
+.top-links ul li a.sign_up {
+	background-position: -298px 0;
+    width: 64px;
+}
+.top-links ul li a.cms_14:hover,
+.top-links ul li a.cms_14:active,
+.top-links ul li.current a.cms_14{
+    background-position: 0 -13px;
+}
+.top-links ul li a.stylists:hover ,
+.top-links ul li a.stylists:active,
+.top-links ul li.current a.stylists {
+    background-position: -126px -13px;
+}
+.top-links ul li a.sign_up:hover,
+.top-links ul li a.sign_up:active,
+.top-links ul li.current a.sign_up {
+	background-position: -298px -13px;
+}
+/*header links styling ends here*/
+
+/*footer links  styling begins here*/
+#footer-links {
+    float:left;
+	max-width: 805px;
+	white-space: nowrap;
+}
+#footer-links li {
+    display: inline;
+    padding: 0 12px 0 0;
+    color: #7F7F7F;
+    font-size: 1em;
+	line-height: 24px;
+}
+#footer-links a {
+	color: #7F7F7F;
+}
+#fancybox-content a.buttonmedium{
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+	float: left;
+        position: relative;
+        left:330px;
+}
+/*footer links styling ends here*/

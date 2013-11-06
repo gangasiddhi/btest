@@ -1,0 +1,516 @@
+
+/*BEGIN:styling of mediator.tpl ---- paymentoptions*/
+.final_price {
+    margin: 17px 0 0;
+    font-weight: bold;
+    float: left;
+}
+.payment_details {
+    margin: 0;
+    width: 609px;
+}
+/*End:styling of mediator.tpl ---- payment options*/
+
+/* The Payment Page[credit card details,pre-sales_agreement,sales_agreement*/
+form {
+    float:none;
+}
+ #payment_details {
+    float: left;
+    height: auto;
+    width: 609px;
+}
+ fieldset  {
+    margin-top: 12px;
+}
+span.payment_steps {
+    color: #414042;
+    font-size: 1.1em;
+    font-weight: bold;
+    width:100%;
+}
+#step_3,#step_4{
+    float: left;
+    margin:10px 0 10px;
+    width: 100%;
+}
+#display-total {
+    float: left;
+    width: 100%;
+}
+#step_5{
+    margin:10px 0 30px;
+    width: 635px;
+}
+
+table#installment_details {
+    width:365px;
+}
+
+table#installment_details thead tr td{
+    color: #414042;
+    text-align: center;
+    padding:5px 0 0;
+    font-weight: bold;
+}
+table#installment_details thead tr th.gv_width {
+    width:70px;
+}
+table#installment_details tr {
+    height: 20px;
+}
+table#installment_details tr td{
+    padding: 0 10px;
+    text-align: center;
+}
+
+ #payment_method {
+    margin: 15px 0 10px;
+    background-color: #eeeeee;
+}
+#credit-top-left {
+    float: left;
+}
+#credit-header{
+    float:left;
+    margin-left: 10px;
+}
+#credit-top-right {
+    position: absolute;
+    right: 0;
+    width: 145px;
+    top: 25px;
+}
+ #payment_method h3 {
+    font-size:1.2em;
+    margin: 0;
+    color:#000;
+    font-family:arial;
+    font-weight:bold;
+}
+.credit-card-entries {
+    float: left;
+    margin-bottom:10px;
+    width: 100%;
+}
+.credit-card-icon-con{
+    float:left;
+    margin:-1px 0 0 9px;
+}
+.credit-card-icon-con > .icon-item{
+    background:url(../../themes/butigo/img/cart/credit_card_icons.png);
+    display:block;
+    width:31px;
+    height: 20px;
+    floaT:left;
+    margin-left:2px ;
+}
+
+.credit-card-icon-con > .visa{
+    background-position: 0 0;
+}
+.credit-card-icon-con > .visa.passive{
+    background-position: 0 -21px;
+}
+
+.credit-card-icon-con > .master-card{
+    background-position: -32px 0;
+}
+.credit-card-icon-con > .master-card.passive{
+    background-position: -32px -21px;
+}
+
+.credit-card-icon-con > .amex{
+    background-position: -63px 0;
+}
+.credit-card-icon-con > .amex.passive{
+    background-position: -63px -21px;
+}
+
+.credit-card-entries img {
+    margin-left: 10px;
+}
+.credit-label {
+    float: left;
+    margin: 0 15px 0 0;
+    text-align: right;
+    width: 224px;
+}
+.credit-input {
+    float:left;
+}
+#sslseal{
+    float:right;
+    margin-right: 7px;
+}
+#credit-card-details {
+    float: left;
+    width: 100%
+}
+#credit-card-details span {
+    font-size: 1em;
+    font-weight: bold;
+    line-height:1.4em;
+    display: block;
+}
+.label-bottom-text,#credit-card-details .label-bottom-text {
+    font-size: 0.85em;
+    color:#414042;
+    font-weight: normal;
+    line-height:1em;
+}
+ #payment_method  fieldset input#ccname{
+    width:215px;
+}
+ #payment_method  fieldset input#ccnum{
+    width:215px;
+}
+ #payment_method  fieldset input#ccvv2{
+    width: 50px;
+}
+
+ .formContainer {
+    border: 1px solid #d3d3d3;
+    padding: 15px;
+    float: left;
+    width: 577px;
+    position: relative;
+}
+ .sales_agreement iframe {
+    float: left;
+}
+ .sales_agreement iframe {
+    padding-top:0px;
+    padding-bottom:10px;
+    margin:10px 0 0 0;
+    height: 90px;
+    width:635px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    overflow:-moz-scrollbars-vertical;
+}
+ .sales_agreement p,#order-conf p {
+    font-size:0.9em;
+}
+ .check-agree {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin: 5px 0 10px;
+}
+ .sales_agreement a, .check-agree  a, a#show-instal-popup  {
+    color: #F2018A;
+    text-decoration: underline;
+}
+a#show-instal-popup  {
+    display: block;
+}
+
+#final_total {
+    margin: auto;
+    width: 320px;
+    font-weight: bold;
+    float:left;
+}
+#submit-payment {
+    position: relative;
+}
+
+#submit-payment .checkOut{
+    position: absolute;
+    top:60px;
+    right: -12px;
+}
+/*The Payment Page*/
+/*order-confirmation page*/
+
+#order-confirmation #order-detail-content {
+    float:left;
+    margin:0 0 20px 0;
+}
+#order-confirmation div.cart_navigation {
+    float: none;
+    margin: auto;
+    width: 135px;
+}
+
+h5.order_product_name {
+    text-transform: uppercase;
+}
+#order-conf {
+    float:left;
+    padding: 30px 0 20px 0;
+}
+
+/*Order Confirmation Table*/
+table#order_summary {
+    width:960px;
+}
+table#order_summary tr.order_item  {
+    height: 75px;
+}
+#order-confirmation table#order_summary tr td.order_product {
+    padding: 0 0 0 20px;
+}
+#order-confirmation  table#order_summary thead th.order_product {
+    padding: 0 0 0 20px;
+}
+#order-confirmation table#order_summary tfoot tr td.order_total_label {
+    padding: 0 0 0 655px;
+    text-transform: uppercase;
+    text-align: left;
+}
+#order-confirmation table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table#order_summary thead tr{
+    background-color:#eb059c;
+    height:40px;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 1.1em;
+    font-family: Helvetica,inherit;
+}
+
+table#order_summary thead th.order_product {
+    width:450px;
+}
+table#order_summary tr th.order_quantity {
+    width:170px;
+    padding: 0 0 0 15px;
+}
+table#order_summary tr th.cart_unit {
+    width:240px;
+}
+table#order_summary tr th.order_total {
+    padding: 0 10px 0 0;
+    text-align: right;
+    width: 100px;
+}
+
+table#order_summary tfoot tr{
+    background-color:#eefaf9;
+    height:35px;
+}
+
+table#order_summary tr.order_item td{
+    border-bottom:1px solid #b2b2b2;
+}
+table#order_summary tr.last_item td {
+    border:none;
+}
+
+table#order_summary tr td.order_total {
+    padding: 0 10px 0 0;
+    text-align: right;
+}
+
+tfoot tr td.order_total_price {
+    padding: 0 20px 0 0;
+    text-align: right;
+}
+
+table#order_summary td.order_unit span{
+    color: #F2018A;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+table#order_summary tr td.order_total,.order_discount_price {
+    font-size:0.9em;
+    font-weight: bold;
+}
+.order_total_price {
+    font-weight: bold;
+}
+.order_total_label span {
+    color: #F2018A;
+}
+
+td.order_quantity div.quantity_order {
+    border: 1px solid #e5e5e5;
+    float: left;
+    margin: 0 8px;
+    padding: 2px 0;
+    text-align: center;
+    width: 40px;
+}
+td.order_product div.product_image {
+    float: left;
+    border: 1px solid #e5e5e5;
+}
+td.order_product div.product_image a{
+    display: block;
+    height: 60px;
+}
+td.order_product div.about-product{
+    float: left;
+    padding: 15px 0 0 10px;
+}
+
+table#order_summary tr.order_discount,table#order_summary tr.shipping_cost {
+    height:32px;
+}
+.order_discount_price {
+    padding: 0 35px 0 0;
+    text-align:right;
+}
+.shipping_cost td span {
+    float: right;
+    font-weight: bold;
+    height: 32px;
+}
+.shipping-label{
+    padding: 0 0 0 655px;
+    vertical-align: -2px;
+}
+.pad_label {
+    padding: 0 0 0 14px;
+}
+/*Installment Details*/
+#order-confirmation table#order_summary tr.installment-details{
+    height: 30px;
+    text-align: left;
+}
+#order-confirmation table#order_summary tr.installment-details .installment-label{
+    padding: 0 0  0 655px;
+}
+/*Discount Details*/
+.discount-description{
+    padding: 0 0 0 655px;
+    text-align: left;
+}
+/*The payment_error page styling begins here*/
+ .errorContainer {
+    float: left;
+    margin:20px 0 0 0;
+}
+/*The payment_error page styling ends here*/
+
+/* Payment List*/
+.payment-list {
+    margin:15px auto 100px;
+    /*width: 100%;*/
+}
+.payment-list-item {
+    float: left;
+    margin: 0 28px 0 0;
+    border: 2px solid #B2B2B2;
+    cursor: pointer;
+}
+.payment-list-item img{
+    padding: 10px 15px;
+}
+
+/*Popup installment CSS Start*/
+#popup-installment{
+    margin: auto;
+    width: 800px;
+    height: 600px;
+}
+.pop-bank-instal{
+    margin: auto;
+    float: left;
+    height: 235px;
+    padding: 10px 20px;
+}
+.pop-bank-instal thead td{
+    text-align: center;
+}
+.pop-bank-instal table{
+    width: 395px;
+}
+.pop-bank-instal table tr{
+    width: 150px;
+    line-height: 25px;
+}
+.pop-bank-instal table tr.spacer{
+    height: 7px;
+}
+.pop-bank-instal table tr.helight{
+    background-color: #F9D6E4;
+}
+.pop-bank-instal table thead{
+    height: 75px;
+}
+/*Popup installment CSS End*/
+
+/*Turkcell CSS*/
+#turkcell-logo {
+    height: 70px;
+    width: 205px;
+}
+#turkcell-checkout{
+    margin: 0 235px;
+}
+#turkcell-banner {
+    height: 109px;
+    width: 120px;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+#turkcell-agree {
+    margin-left: 45px;
+}
+
+.tcw #fancybox-bg-n, .tcw #fancybox-bg-ne, .tcw #fancybox-bg-nw,
+.tcw #fancybox-bg-s, .tcw #fancybox-bg-se, .tcw #fancybox-bg-sw,
+.tcw #fancybox-bg-e, .tcw #fancybox-bg-w {
+    background-image: none;
+}
+.tcw #fancybox-outer {
+    background: none;
+}
+.errorContainer a.buttonsmall {
+    margin: 18px 0 15px 6px;
+    padding: 1em;
+    float: left;
+}
+
+.tcw .fancybox-skin {
+    background: none !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
+
+/*Order Success Page social links*/
+.order-success-social-link{
+    margin: 20px 505px 0 0;
+}
+
+.order-success-social-link ul li h4{
+    color: #F2018A;
+    text-transform: uppercase;
+    font-family: 'Oswald';
+    font-size: 1.8em;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 0 30px 0 0;
+}
+.order-success-social-link ul li h4 span{
+    color: #000;
+}
+
+.blue-text{
+    color:#01C2FB;
+    font-weight: bold;
+}
+#order-conf .order-success-data h4{
+    font-family: 'Oswald';
+    font-size: 24px;
+    font-size: 1.8em;
+}
+
+#order-conf .order-success-data h4 span.grey-text{
+    color: #b2b2b2;
+}
+#order-conf .order-success-data p{
+    color: #000000;
+    font-size: 13px;
+    margin: 10px 0 0;
+    width: 100%;
+}
+/*Order Success Page social links*/

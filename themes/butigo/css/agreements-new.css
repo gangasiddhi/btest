@@ -1,0 +1,64 @@
+/* p {
+	font-size:0.9em;
+}
+a {
+	color: #F2018A;
+} */
+ol.sales_agree_list p{
+	line-height: 1.2em;
+	margin: 0 0 5px;
+	color: #010001;
+}
+ ol.sales_agree_list {
+	padding-left:25px;
+}
+ ol.sales_agree_list li {
+	list-style-type: decimal;
+	 margin: 15px 0 0 0;
+}
+ol.sales_agree_list > li {
+	margin: 6px 0 0 0;
+}
+ ol.sales_agree_list div {
+	margin-top: 10px;
+}
+ ol.sales_agree_list ol.sublist li {
+	margin-bottom: 10px;
+	list-style-type: none;
+}
+ol.sublist p {
+	margin: 0;
+}
+
+.sales_agreement span {
+	font-weight: bold;
+}
+
+table.consumer_info {
+	border: 1px solid #000;
+	height: 207px;
+	margin: 15px 0;
+	width:548px;
+	border-collapse: collapse;
+}
+table.consumer_info thead {
+	 height: 55px;
+}
+table.consumer_info th{
+    padding-left:3px;
+    text-align: left;
+	border-left: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+table.consumer_info tbody {
+	height: 150px;
+}
+table.consumer_info tr td {
+	border-left: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	padding-left: 3px;
+	width: 80px;
+}
+table.consumer_info tr {
+	height: 70px;
+}

@@ -1,0 +1,1 @@
+<img src="{$img_dir}cart/cart-footer-black2.gif" alt="{l s='Cart Helpline'}" class="cart-bottom"/>

@@ -1,0 +1,45 @@
+#client_services {
+     border: 5px solid #F2018A;
+    margin: 30px 0 0;
+    width:295px;
+}
+#client_services h4 {
+    padding: 14px 0 10px 12px;
+/*    color:#F643C6;*/
+}
+#client_services li {
+    list-style-type: none;
+    border-top: 1px solid #B7B7B7;
+    font-weight: bold;
+    height: 24px;
+    width:295px;
+    font-size: 0.9em;
+}
+ul.sidebar_options li a {
+    color:#f2018a;
+    padding: 7px 0 3px 20px;
+    vertical-align: middle;
+}
+ ul.sidebar_options li.current,
+ ul.sidebar_options li:hover,
+ ul.sidebar_options li:active {
+    background: url("../img/myacc_links_active.gif") repeat-x 0 0;
+}
+ul.sidebar_options li.current a,
+ul.sidebar_options li a:hover,
+ul.sidebar_options li a:active {
+    color: #000000;
+}
+.ma_call {
+    float:left;
+    margin:10px 0 0 0;
+}
+.ma_call img {
+    float:left;
+    margin:5px 5px 0 0;
+}
+.ma_call p {
+    float: left;
+    width: 305px;
+}
+

@@ -1,0 +1,127 @@
+#user-info {
+	color: #000000;
+    float: right;
+    text-align: right;
+    width: 100%;
+	font-weight: bold;
+	font-family: arial;
+}
+
+#user-info a, #my-acc-cart a:hover {
+	color:#f2018a;
+}
+#help_desk {
+	color:#a4a4a4;
+	border-left: 1px solid #a4a4a4;
+	border-right: 1px solid #a4a4a4;
+	padding:0 10px 0 10px;
+	font-weight: normal;
+	margin: 0 8px;
+}
+#header-info {
+	float: left;
+    padding: 40px 0 0;
+    width: 100%;
+}
+
+/* secondary navigation */
+#my-acc-cart {
+	float: right;
+	margin: 10px 0 0;
+}
+#my-acc-cart {
+	font-weight: bold;
+	font-size: 12px;
+	float: right;
+}
+
+#identity-menu {
+	width: 63px;
+	float: left;
+    margin: 0 18px 0 0;
+}
+
+#identity-menu a{
+	background: url("../../../img/buttons/arrow_down_pink.png") no-repeat scroll 57px 6px transparent;
+    float: left;
+    height: 14px;
+    width: 64px;
+}
+
+#my-acc {
+	display: none;
+	float: left;
+	clear: both;
+	position: relative;
+/*	left: -45px;*/
+/*	top: 0;*/
+/*	width: 0;
+	height: 0;*/
+	z-index: 10000;
+	margin: 2px 0 0;
+}
+#my-acc ul {
+	background: url("../../../img/dropdown-bg.png") repeat scroll 0 0 transparent;
+	-webkit-box-shadow: 0px 1px 10px #333333;
+	-moz-box-shadow: 0px 1px 10px #333333;
+	box-shadow: 0px 1px 10px #333333;
+	float: left;
+	clear: both;
+	width: 135px;
+	height: 185px;
+	list-style-type: none;
+	position: relative;
+	padding: 2px 15px 10px 15px;
+}
+#my-acc ul li {
+	display: block;
+	float: left;
+	clear: both;
+	width: 100%;
+	padding: 10px 0 8px;
+    line-height: 1.2em;
+}
+#my-acc ul li a {
+	width: 100%;
+	text-transform: none;
+	line-height: 1.2em;
+	background: none;
+	color:#fff;
+}
+#my-acc ul li a:hover {
+	color: #F2018A;
+}
+#my-acc ul li .addresses{
+    margin: 0;
+}
+
+/* shopping cart */
+#shopping-cart-top {
+	float: left;
+}
+
+#shopping-cart-top-gad {
+   float:right;
+}
+
+#shopping-cart-top:hover, #shopping-cart-top-gad:hover, #shopping-cart-top-link:hover, #shopping-cart-top-span:hover {
+	background-position: 0 -24px;
+    color:#f2018a;
+}
+
+#shopping-cart-top{
+    margin:0 0 0 20px;
+	text-transform: uppercase;
+    height: 16px;
+}
+
+#shopping-cart-top-link, #shopping-cart-top-span {
+    background: url("../../../img/buttons/cart.png") no-repeat 0 0;
+    padding:0 0 0 20px;
+    height: 15px;
+}
+#shopping-cart-top-gad {
+    background: url("../../../img/buttons/cart.png") no-repeat 0 0;
+    margin:0 0 0 20px;
+    height: 15px;
+}

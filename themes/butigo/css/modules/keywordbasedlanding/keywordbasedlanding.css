@@ -1,0 +1,51 @@
+.keywordBasedLandingPageTopContainer {
+    text-align: right;
+    margin-top: 55px;
+    margin-right: 20px;
+}
+.keywordBasedLandingPageTopContainer p {
+    font-family: Oswald;
+    font-size: 18px;
+    color: #B8B8B8;
+}
+.keywordBasedLandingPageTopContainer p a {
+    color: #f2018a;
+}
+.keywordBasedLandingPageContainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.keywordBasedLandingPageContainer .left {
+    float: left;
+    width: 537px;
+    margin-bottom: 50px;
+}
+.keywordBasedLandingPageContainer .right {
+    float: right;
+    width: 370px;
+    margin-bottom: 50px;
+}
+.keywordBasedLandingPageContainer .right .headline {
+    font-family: Oswald;
+    font-size: 45px;
+    line-height: 55px;
+    color: #424242;
+}
+.keywordBasedLandingPageContainer .right .subheadline {
+    margin-top: 20px;
+}
+.keywordBasedLandingPageContainer .right .subheadline p {
+    margin-bottom: 0;
+    font-family: HelveticaCE35ThinRegular;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+    color: #f2018a;
+}
+.keywordBasedLandingPageContainer .right .subheadline p:first-child {
+    margin-bottom: 18px;
+}
+.keywordBasedLandingPageContainer .right .landingPageContinueButton {
+    margin-top: 20px;
+    text-align: center;
+}

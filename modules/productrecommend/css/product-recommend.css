@@ -1,0 +1,30 @@
+/* 
+    Document   : product-recommend
+    Created on : 26 Apr, 2013, 3:31:49 PM
+    Author     : gangadhar
+    Description:
+        
+*/
+#final-recommend-product-list p{
+	text-align: center;
+}
+span.up-arrow { 
+    background-image: url("../../../img/admin/up.gif");
+	cursor:pointer;
+    display: block;
+    height: 9px;
+    width: 9px;	
+	float:left;
+}
+
+span.down-arrow { 
+    background-image: url("../../../img/admin/down.gif");
+	cursor:pointer;
+    display: block;
+    height: 9px;
+    width: 9px;	
+	float:left
+}
+
+
+

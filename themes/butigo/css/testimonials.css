@@ -1,0 +1,85 @@
+/*
+    Document    : testimonials.css
+    Created on  : Feb 18, 2012, 3:03:32 PM
+    Author      : Shiva
+    Description : Testimonials page stylings.
+*/
+
+.testimonial-container {
+    background: url("../img/testimonial/vgenie-bg.jpg") no-repeat scroll 0 129px transparent;
+    float: left;
+    height: 679px;
+    margin: 20px 0 0 0;
+    width: 957px;
+}
+#vgenie-video {
+	background: url("../img/testimonial/vgenie-video-bg.png") no-repeat  0 0;
+    float: left;
+    height: 465px;
+    margin: 0 40px 0 0;
+    padding: 10px 0 0;
+    width: 462px;
+}
+#vgenie_player {
+    border: 0 none;
+    height: 350px;
+    margin: 0;
+    overflow: hidden;
+    width: 440px;
+}
+#play-video {
+	margin: 0 auto;
+	width: 440px;
+}
+#vgenie-video img {
+	 margin: 0 0 0 10px;
+}
+#vgenie-img {
+	float: left;
+	width: 450px;
+	margin: 40px 0 0;
+}
+#vgenie-img #get_profile {
+	width:295px;
+	margin: 22px auto;
+}
+
+/*.testimonial {
+	float: left;
+    margin: 25px 0 15px 40px;
+}
+.testimonial-heading {
+	float:left;
+	margin:0 0 20px;
+}
+.testimonial-heading img {
+    float:left;
+}
+.testimonial-heading a {
+	float: right;
+}
+.testimonial-desc {
+	float: left;
+	margin-left: 33px;
+}
+.testimonial-desc span {
+	font-weight: bold;
+	font-style: italic;
+	color:#414042;
+}
+.testimonial-desc a {
+	font-size: 1em;
+	color: #F643C6;
+	font-weight: bold;
+}
+a.view {
+	float:right;
+}*/
+/* button chnges through css */
+  
+#get_profile a.buttonlarge{
+        left: 27px;
+    position: relative;
+    
+}
+

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<Banks>
+	<bank1>
+		<bank_id>483</bank_id>
+		<bankname>Finansbank A.Ş.</bankname>
+		<cards>
+			<card_1>
+				<cardid>707</cardid>
+				<cardimage>img/credit_cards/cardfinans_logo.png</cardimage>
+			</card_1>
+		</cards>
+	</bank1>
+	<bank2>
+		<bank_id>480</bank_id>
+		<bankname>Fortis Bank A.Ş.</bankname>
+		<cards>
+			<card_1>
+				<cardid>702</cardid>
+				<cardimage>img/credit_cards/world.jpg</cardimage>
+			</card_1>
+			<card_2>
+				<cardid>704</cardid>
+				<cardimage>img/credit_cards/diger.jpg</cardimage>
+			</card_2>
+		</cards>
+	</bank2>
+</Banks>
+

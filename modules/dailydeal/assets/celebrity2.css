@@ -1,0 +1,15 @@
+.jcarousel-skin-container .jcarousel-clip-horizontal {
+    height:362px;
+}
+.jcarousel-list li, .jcarousel-item {
+    height:362px;
+}
+.jcarousel-skin-container .jcarousel-item {
+    height: 362px;
+}
+.jcarousel-skin-container img {
+	height: 362px;
+}
+.jcarousel-skin-container .jcarousel-next-horizontal, .jcarousel-skin-container .jcarousel-prev-horizontal {
+	top:181px;
+}

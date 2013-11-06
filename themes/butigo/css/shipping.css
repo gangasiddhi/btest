@@ -1,0 +1,109 @@
+/*shipping.tpl styling begins here{the page displayed when user checks out:To add address and personal information
+if user does not have address}*/
+#shipping-billing-container {
+	margin:auto;
+	width:655px;
+}
+#shipping h3  {
+    margin: 0;
+}
+#shipping .formContainer{
+    float: left;
+	width: 400px;
+	margin: 0 15px 0 0;
+}
+#shipping fieldset {
+    margin: 20px 0 0;
+}
+#shipping .formContainer fieldset label {
+    margin-right: 20px;
+    text-align: right;
+    width: 34%;
+}
+#shipping #shipping-address fieldset input {
+	width:215px;
+}
+#shipping div.cart_adress {
+    top:150px;
+	float: left;
+	position: relative;
+}
+/*.submit_address {
+	background: url("../img/buttons/new-adress.jpg") no-repeat 0 0;
+    height:40px;
+    width:212px;
+    float:left;
+}*/
+.submit_address2 {
+	background: url("../img/buttons/new-adress2.jpg") no-repeat 0 0;
+    height:25px;
+    width:139px;
+    float:left;
+}
+#shipping p {
+	margin-top: 15px;
+}
+#shipping p#call {
+	margin:0;
+}
+#shipping .submit {
+    float:right;
+}
+/*shipping.tpl styling ends her*/
+
+
+.shopping-cart hr {
+	background-color:#b2b2b2;
+	margin: 20px 0 30px;
+}
+
+.help_text {
+   font-size: 11px;
+}
+/* button chnges through css */
+  
+.cart_adress .submit{
+        cursor: pointer;
+        display: inline-block;
+        font: bold 13px/100% Arial,Helvetica,sans-serif;
+        outline: medium none;
+/*          padding: 10px 0 0;*/
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+	 float: left;
+       height: 32px;
+/*       margin: 18px 0 4px;*/
+         width: 142px;
+}
+#container .submit:hover {
+	background: #21c7f7;
+        color: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#21c7f7), to(#21c7f7));
+	background: -moz-linear-gradient(top,  #21c7f7,  #21c7f7);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#21c7f7',endColorstr='#21c7f7');
+}
+.cart_adress .submit:active {
+	position: relative;
+	top: 1px;
+}
+.cart_adress .adres {
+	color: #fff;
+/*	border: solid 1px #da7c0c;*/
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#5ddbff), to(#21c7f7));
+	background: -moz-linear-gradient(top,  #5ddbff,  #21c7f7);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#5ddbff', endColorstr='#21c7f7');
+}
+.cart_adress .adres:hover {
+	background: #21c7f7;
+}
+.cart_adress .adres:active {
+	color: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#5ddbff), to(#5ddbff));
+	background: -moz-linear-gradient(top,  #5ddbff,  #5ddbff);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#5ddbff', endColorstr='#5ddbff');
+}
+input, textarea, select{
+    margin-top:-1px;
+}

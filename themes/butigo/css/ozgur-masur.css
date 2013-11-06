@@ -1,0 +1,79 @@
+/*
+    Document   : ozgur-masur
+    Created on : 7 Oct, 2013, 7:26:50 PM
+    Author     : gangadhar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+/*#main-wrapper{
+	width:2400px;
+	width:1920px;
+}*/
+
+
+.ozgur-shoe-cell-container {
+	/*background-color:#fff;*/
+	float:left;
+	margin-bottom: 15px;
+}
+
+/*.ozgur-shoe-cell-container img{
+	height: 200px;
+}*/
+
+.ozgur-odd {
+	margin-right: 10px;
+}
+
+#ozgur_bgcolor{
+/*	background-color: #ccc4b7;
+	height: 1871px;*/
+    background: url("../img/bg-online-single.gif") repeat-x scroll 0 0 #FFFFFF;
+    background-color: #ccc4b7;
+    height: 100%;
+}
+
+
+#ozgur_bgimage{
+	background: url('../img/ozgur-boutique/background.jpg') center top;
+	height: 100%;
+	position: relative;
+    width: 100%;
+    background-size: auto auto;
+    background-position: center top 133px;
+    background-repeat: no-repeat;
+    min-height: 1871px;
+    background-size: contain;
+    background-position-y: 133px;
+    
+    
+
+/*	background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+	clear: both;
+    height: 100%;
+    min-height: 680px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;*/
+
+}
+
+/*#footer-wrapper{
+	background: none repeat scroll 0 0 #ccc4b7;
+	width: 2400px;
+	width:1920px;
+}*/
+
+
+/*#ozgur-features-wrapper{
+	background: url('../img/ozgur-boutique/background.jpg');
+	background-size: 1920px 1268px;
+	height:auto;
+	width:100%;
+}*/

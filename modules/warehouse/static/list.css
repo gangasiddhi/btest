@@ -1,0 +1,65 @@
+.alignLeft {
+    float: left;
+}
+
+.alignRight {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.hidden {
+    height: auto;
+    display: none;
+}
+
+.top {
+    margin-bottom: 20px;
+}
+
+label, select {
+    float: none;
+    width: auto;
+    display: block;
+    padding: 0;
+    text-align: left;
+}
+
+#supplier-purchases {
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#supplier-purchase-container {
+    background: #FFFAC6;
+    width: 325px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+}
+
+#supplier-purchase-form label {
+    margin-bottom: 7px;
+}
+
+#supplier-purchase-form input[type='text'] {
+    border: 1px solid #ccc;
+}
+
+.supplier-purchase-form-row:not(.first) {
+    margin-top: 15px;
+}
+
+.supplier-purchase-form-row.last {
+    margin-top: 20px;
+}
+
+.supplier-purchase-form-inner-row:not(.first) {
+    margin-top: 5px;
+}
+
+.pagination {
+    width: 100%;
+}

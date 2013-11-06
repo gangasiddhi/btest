@@ -1,0 +1,204 @@
+.magazineContainer {
+    margin: 10px auto;
+    height: 624px;
+}
+
+
+.magazineContainer .slideContent2 {
+    display: none;
+}
+
+.magazineContainer .container {
+    width: 950px;
+    height: 624px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.magazineContainer figure {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.magazineContainer figure img {
+    width: 950px;
+    height: 624px;
+    display: block;
+    visibility: hidden;
+}
+
+.magazineContainer .bx-viewport {
+    height: 624px;
+}
+
+.magazineContainer .bx-controls {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    z-index: 9999;
+}
+
+
+.magazineContainer .bx-next,
+.magazineContainer .bx-prev {
+    background: url('../img/magazine/nav.png') no-repeat left bottom;
+    display: block;
+    width: 32px;
+    height: 53px;
+}
+
+
+.magazineContainer .bx-prev:hover {
+    background-position: left top;
+}
+
+.magazineContainer .bx-next:hover {
+    background-position: right top;
+}
+
+
+.magazineContainer .bx-next {
+    position: absolute;
+    background-position: right bottom;
+    right: 0;
+    top: 0;
+}
+
+.magazineContainer .thumbnails {
+    text-align: center;
+}
+
+.magazineContainer .archiveThumbnails {
+    text-align: center;
+	margin: auto 63px;
+	width: 960px;
+}
+
+.magazineContainer .thumbnails img{
+    display: inline-block;
+    width: 188px;
+    height: 134px;
+    border: 1px solid #DEDEDE;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.0);
+}
+
+.magazineContainer .archiveThumbnails img{
+    width: 145px;
+    height: 180px;
+    border: 1px solid #DEDEDE;
+    cursor: pointer;
+    /*box-shadow: 0 0 3px rgba(0, 0, 0, 0.0);*/
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.38);
+}
+
+.archiveThumbnails .issueImage{
+	float:left;
+	  margin: 11px 15px 18px 40px;
+}
+.magazineContainer .archiveThumbnails .imageText{
+	/*margin-left: 40px;*/
+}
+
+
+
+.magazineContainer .thumbnails img:hover{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+}
+
+.magazineContainer .archiveThumbnails img:hover{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+}
+
+.magazineContainer .header {
+    text-align: center;
+}
+
+
+.magazineContainer .header .headerContent {
+    color: #000000;
+    font-size: 21px;
+    line-height: 30px;
+    display: block;
+}
+
+.magazineFooter {
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 5px 0;
+    position: relative;
+	width: 960px;
+	float: left;
+}
+
+.magazineFooter .galleryView {
+    background: url('../img/magazine/nav2.png') no-repeat 0 -4px;
+    width: 24px;
+    height: 20px;
+	float: left;
+}
+
+
+.magazineFooter .archiveView {
+    background: url('../img/magazine/nav2.png');
+     float: left;
+    height: 20px;
+    margin-left: 6px;
+    width: 24px;
+	background-position: -30px -4px;
+}
+
+
+.magazineFooter .galleryView:hover {
+    background-position: 0 -34px;
+}
+
+.magazineFooter .archiveView:hover {
+    background-position: -30px -34px;
+}
+
+.magazineFooter .divider{
+	border-right: 1px solid #CCCCCC;
+    float: left;
+    height: 10px;
+    margin: 6px 0 0 13px;
+}
+
+.magazineFooter .pager{
+    position: absolute;
+    width: 50%;
+    margin-left: 25%;
+    top: 7px;
+    text-align: center;
+    left: 0;
+}
+
+.magazineFooter .archiveFooter{
+    position: absolute;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    left: 0;
+}
+
+
+.magazineFooter .pager em{
+    font-style: normal;
+}
+
+
+.magazineFooter .pager a{
+    background: url('../img/magazine/nav2.png') no-repeat -129px -8px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: -3px 15px;
+}
+
+
+.magazineFooter .pager a.next{
+    background-position: -156px -8px;
+}

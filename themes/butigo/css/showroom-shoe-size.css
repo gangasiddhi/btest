@@ -1,0 +1,84 @@
+/*
+    Document   : showroom-shoe-size
+    Created on : 21 Feb, 2013, 5:13:15 PM
+    Author     : nagraj.sm
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*shoesize popup starts */
+.shoe-size-button-container {
+    display: none;
+    width: 0;
+    height: 0;
+    float: left;
+    position: relative;
+    top: 210px;
+    left: -128px;
+}
+.shoe-size-button{
+    background: url("../img/showroom/shoesize-button.gif") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 19px;
+    width: 112px;
+}
+#name_fav{
+    float: left;
+    width: 159px;
+}
+#sizepopup {
+    top: 0;
+    width: 200px;
+    height: 200px;
+}
+#sizepopup ul {
+    float: left;
+    clear: both;
+    width: 35px;
+    list-style-type: none;
+    position: relative;
+    padding: 2px 5px 10px 5px;
+    z-index: 99999;
+}
+#sizepopup ul li {
+    /*	display: block;*/
+    float: left;
+    z-index: 99999;
+    width: 100%;
+    padding: 10px 0 8px;
+    line-height: 1.2em;
+}
+.sizeview{
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 3px #CCCCCC;
+    display: none;
+    float: left;
+    left: -117px;
+    top: 230px;
+    position: relative;
+    width: auto;
+    margin-right: -100px;
+    z-index: 99999;
+}
+ul#size_list{
+    float: left;
+    padding: 5px 0 0 5px;
+    width: 93px;
+    z-index: 99999;
+}
+ul#size_list li {
+    display: inline;
+    float: left;
+    margin: 0 0.4em 0.4em 0;
+    border: 1px solid #CDCDCD;
+    padding: 3px 5px;
+    color: #7d7d7d;
+    font-size:12px;
+    z-index: 99999;
+}
+ul#size_list li.no_stock {
+    background: url("../img/product/unavailable.png") no-repeat 0 0;
+}
+

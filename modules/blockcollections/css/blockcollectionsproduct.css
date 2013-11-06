@@ -1,0 +1,68 @@
+/*collections css*/
+#collections {
+	float: left;
+	clear: both;
+	width: 100%;
+/*	margin: 0 0 0 43px;*/
+}
+#cols-content {
+	float: left;
+	height: 190px;
+	padding-top: 30px;
+}
+#collections h2
+{
+	margin:40px 0 0;
+	width: 100%;
+	clear: both;
+	color: #b7b7b7;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: -0.1px;
+	padding: 0;
+	text-transform: uppercase;
+}
+#cols-list li:first-child {
+    margin-left: 0;
+}
+#cols-list li {
+    float: left;
+    display: inline;
+	margin: 0 0 0 37px;
+    width: 295px;
+    height:174px;
+}
+#cols-list li a {
+	display: block;
+	width: 295px;
+    height:174px;
+	position: relative;
+}
+.collection_name {
+	background: url("../../../img/collections/bg_box_links.gif") repeat-x scroll 0 0 transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 13px;
+    height: 25px;
+    line-height: 25px;
+    margin: 0;
+    padding: 0 10px;
+    position: absolute;
+    text-transform: uppercase;
+    width: 271px;
+	float: left;
+	bottom: 0;
+	left: 0;
+}
+#cols-content li a p.collection_name:hover {
+	background-position: 0 -26px;
+}
+/*#cols-list li span {
+	background: url("../../../img/collections/links_box.png") no-repeat scroll right 0 transparent;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    width: 69px;
+}*/

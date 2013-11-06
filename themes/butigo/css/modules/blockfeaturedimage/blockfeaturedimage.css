@@ -1,0 +1,39 @@
+#image-container {
+    float: left;
+    margin: 15px 0 20px;
+}
+#pink_bar {
+	background-color: #000000;
+    float: left;
+    height: 90px;
+    position: relative;
+    width: 100%;
+}
+#pink_bar_aligncentre{
+	float: left;
+    height: 60px;
+    margin: 0 0 0 20px;
+    width: 620px;
+}
+.pink_bar_sub1{
+	float: left;
+	 width: 660px;
+	padding-top: 26px;
+}
+#pink_bar_sub2{
+	 float: left;
+    margin-left: 40px;
+    margin-top: 14px;
+    width: 256px;
+}
+#fb_like {
+    float: left;
+    width: 125px;
+}
+#facepile{
+	float: left;
+    height: 33px;
+/*    margin-right: 26px;*/
+    margin-top: 8px;
+    width: 277px;
+}

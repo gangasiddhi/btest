@@ -1,0 +1,24 @@
+#get-started-link {
+	float: right;
+    margin: 35px 0 0;
+}
+p#info-text {
+    float: right;
+    text-align: right;
+    width: 100%;
+	margin: 4px 0 0;
+	line-height: 1.2em;
+}
+
+.blockgetstarted {
+        cursor: pointer;
+        display: inline-block;
+        font: bold 11px/100% Arial,Helvetica,sans-serif;
+        outline: medium none;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        width: auto;
+       padding: 0.38em 3em 0.38em 3em;
+        line-height: 1.4em;
+}

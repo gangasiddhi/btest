@@ -1,0 +1,93 @@
+/*Product recommend sizes css*/
+#stock-remainder-size-close{
+	display: block;
+	height:0;
+	position: relative;
+	left: 122px;
+	top: -6px;
+}
+#stock-remainder-size-close img{
+	padding:0;
+	border:none;
+	height:14px;
+	width:14px;
+	cursor: pointer;
+}
+
+.stock-remainder-color-size-container{
+	margin:2px;
+}
+#stock-remainder-alarm-shoe-sizes{
+	bottom:20px;
+	float:left;
+	width:100%;
+	position: relative;
+	height:0;
+}
+
+ #color_picker,
+ .stock-remainder-choices-group {
+    float:left;
+	border:1px solid #D5D5D5;
+	width:100%;
+	margin:auto;
+	background: #fff;
+}
+/*#color_picker {
+	margin: 15px 60px 0 0;
+}*/
+ #color_picker label,
+ .stock-remainder-choices-group label {
+    float: left;
+	font-size: 12px;
+	color: #7d7d7d;
+	font-weight: normal;
+	line-height: 12px;
+	text-align: left;
+	padding:4px;
+	width: 100%;
+}
+ #color_picker li {
+	display: inline;
+	float: left;
+	margin: 0 0.4em 0.4em 0;
+	border: 1px solid #CDCDCD;
+	/*	padding: 2px 4px; */
+}
+ #color_picker li a {
+	cursor: pointer;
+	display: block;
+	height: 22px;
+	width: 22px;
+	border: 1px solid #FFF;
+}
+ #color_picker li a img {
+	height: 22px;
+	width: 22px;
+}
+  ul.stock-remainder-choices li {
+	border: 1px solid #CDCDCD;
+	color: #7d7d7d;
+	display: inline;
+	float: left;
+	font-size:12px;
+	margin: 5px 3px;
+	padding: 3px 5px;
+	width:auto;
+}
+ ul.stock-remainder-choices li a {
+	cursor: pointer;
+	font-size: 12px;
+	display: block;
+	text-align: center;
+	color: #7d7d7d;
+}
+ ul.stock-remainder-choices li.no_stock,#color_to_pick_list .color_no_stock {
+	background-color: #D5D5D5;
+}
+  #color_picker li.chover:hover,
+  #color_picker li.picked,
+  ul.stock-remainder-choices li.stock:hover,
+  ul.stock-remainder-choices li.picked {
+	border: 1px solid #f643c6;
+}

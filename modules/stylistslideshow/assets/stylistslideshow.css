@@ -1,0 +1,206 @@
+.jcarousel-skin-container .jcarousel-clip-horizontal {
+    height:803px;
+}
+
+.jcarousel-list li,
+.jcarousel-item {
+    height:803px;
+}
+
+.jcarousel-skin-container .jcarousel-item {
+    height: 803px;
+}
+
+.jcarousel-skin-container img {
+	height: 803px;
+}
+
+.jcarousel-skin-container .jcarousel-next-horizontal, .jcarousel-skin-container .jcarousel-prev-horizontal {
+	top:376.5px;
+}
+#stylist img{
+margin-top:10px;
+}
+
+/*.jcarousel-skin-home {
+	float: left;
+	width:960px;
+    padding: 0 0 10px;
+    display: block;
+    position:relative;
+}
+.jcarousel-skin-home img {
+	border:0;
+	height: 580px;
+	width:960px;
+}
+.jcarousel-skin-home .jcarousel-container {
+	padding:0;
+}
+.jcarousel-skin-home .jcarousel-container-horizontal {
+    padding: 0;
+}
+.jcarousel-skin-home .jcarousel-container-vertical {
+    width: 533px;
+    height: 260px;
+    padding: 0;
+}
+.jcarousel-skin-home .jcarousel-clip-horizontal {
+	height: 580px;
+    width: 960px;
+    floaT:left;
+    margin: 0 0 0 0px;
+}
+.jcarousel-skin-home .jcarousel-clip-vertical {
+    width:  533px;
+    height: 260px;
+}
+.jcarousel-skin-home .jcarousel-item {
+    height: 580px;
+    width: 960px;
+}
+.jcarousel-skin-home .jcarousel-item-vertical {
+    margin-bottom: 10px;
+}
+.jcarousel-skin-home .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}*/
+/**
+ *  Horizontal Buttons
+ */
+/*.jcarousel-skin-home .jcarousel-next-horizontal {
+    top: 0;
+    right:-1px;
+    width: 41px;
+    height: 93px;
+    cursor: pointer;
+    background: transparent url(../assets/arr-right-big.png) no-repeat 0 0;
+	position: absolute;
+	margin: 230px 0px 0 0;
+	top: 265px;
+}
+
+.jcarousel-skin-home .jcarousel-next-horizontal:hover {
+    background-position: -40px 0;
+}
+.jcarousel-skin-home .jcarousel-prev-horizontal:hover{
+    background-position: -40px 0;
+}*/
+
+/*.jcarousel-skin-home .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-home .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-home .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -12px 0;
+}*/
+/*.jcarousel-skin-home .jcarousel-prev-horizontal {
+    top: 265px;
+    right: 0;
+	width: 40px;
+    height: 93px;
+    cursor: pointer;
+	position: absolute;
+    background: transparent url(../assets/arr-left-big.png) no-repeat 0 0;
+	left: 0.9px;
+}*/
+
+
+/*.jcarousel-skin-home .jcarousel-prev-horizontal:hover {
+    background-position: -12px 0;
+}
+.jcarousel-skin-home .jcarousel-prev-horizontal:active {
+    background-position: -12px 0;
+}*/
+/**
+ *  Vertical Buttons
+ */
+/*.jcarousel-skin-home .jcarousel-next-vertical {
+    position: absolute;
+    bottom: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(next-vertical.png) no-repeat 0 0;
+}
+.jcarousel-skin-home .jcarousel-next-vertical:hover {
+    background-position: 0 -32px;
+}
+.jcarousel-skin-home .jcarousel-next-vertical:active {
+    background-position: 0 -64px;
+}
+.jcarousel-skin-home .jcarousel-next-disabled-vertical,
+.jcarousel-skin-home .jcarousel-next-disabled-vertical:hover,
+.jcarousel-skin-home .jcarousel-next-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+.jcarousel-skin-home .jcarousel-prev-vertical {
+    position: absolute;
+    top: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+	border:1px solid #c3c3c3;
+}
+.jcarousel-skin-home .jcarousel-prev-vertical:hover {
+    background-position: 0 -32px;
+}
+.jcarousel-skin-home .jcarousel-prev-vertical:active {
+    background-position: 0 -64px;
+}
+.jcarousel-skin-home .jcarousel-prev-disabled-vertical,
+.jcarousel-skin-home .jcarousel-prev-disabled-vertical:hover,
+.jcarousel-skin-home .jcarousel-prev-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}*/
+  
+/* button chnges through css */
+  
+/*#stylist a.buttonssmall{
+        cursor: pointer;
+        display: inline-block;
+        font: bold 13px/100% Arial,Helvetica,sans-serif;
+        height: 25px;
+        outline: medium none;
+        padding: 1em 2em 0 2em;
+        text-align: center;
+        text-decoration: none;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+        width: 100px;
+        text-transform: uppercase;
+	 height: 22px;
+          margin: 15px 0 0;
+    width: auto;
+}
+#stylist a.buttonssmall:hover {
+	background: #21c7f7;
+        color: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#21c7f7), to(#21c7f7));
+	background: -moz-linear-gradient(top,  #21c7f7,  #21c7f7);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#21c7f7',endColorstr='#21c7f7');
+}
+#stylist a.buttonssmall:active {
+	position: relative;
+	top: 1px;
+}
+#stylist a.blue{
+	color: #fff;
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#5ddbff), to(#21c7f7));
+	background: -moz-linear-gradient(top,  #5ddbff,  #21c7f7);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#5ddbff', endColorstr='#21c7f7');
+}
+#stylist a.blue:hover {
+	background: #21c7f7;
+}
+#stylist a.blue:active {
+	color: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#5ddbff), to(#5ddbff));
+	background: -moz-linear-gradient(top,  #5ddbff,  #5ddbff);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#5ddbff', endColorstr='#5ddbff');
+}*/

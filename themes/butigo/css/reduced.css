@@ -1,0 +1,35 @@
+/*discount*/
+#reduced .showroom_product_price span {
+	text-decoration: line-through;
+}
+#reduced #main-wrapper {
+	background:url("../img/discount/bg-discount.gif") repeat-x scroll 0 0 #FFFFFF;
+}
+#reduced h2 {
+	margin:25px 0 26px;
+	width: 100%;
+	clear: both;
+	color: #b7b7b7;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: -0.6px;
+	padding: 0;
+	text-transform: uppercase;
+}
+#reduced h3 {
+	margin:25px 0 22px;
+	width: 100%;
+	clear: both;
+	color: #b7b7b7;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: -0.6px;
+	padding: 0;
+	text-transform: uppercase;
+}
+#reduced .showroom_sel_cntnr {
+    height:248px;
+	margin:0 0 8px
+}

@@ -1,0 +1,101 @@
+#cross-selling-manager-block
+{
+	height: auto;
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	padding-top: 20px;
+}
+#cross-selling-manager-block h2
+{
+	margin:12px 0 26px;
+	width: 100%;
+	clear: both;
+	color: #b7b7b7;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: -0.6px;
+	padding: 0;
+	text-transform: uppercase;
+}
+#cross-selling-manager-block #cross-selling-manager-carousel
+{
+	width:100%;
+	overflow:hidden;
+	height:208px;
+	margin:0;
+}
+
+#cross-selling-manager-block .crossselling-single-product
+{ 
+	width:175px;
+	height:198px;
+	margin:0 8px;
+	float:left;
+	position:relative;
+}
+#cross-selling-manager-block .crossselling-single-product img
+{
+	border:0;
+	margin:0 0 5px 0;
+	width:175px;
+	height:175px;
+	border-bottom: 1px solid #cccccc;
+}
+#cross-selling-manager-block .crossselling-single-product img:hover {
+	border-bottom: 1px solid #F2018A;
+}
+#cross-selling-manager-block .crossselling-single-product .crossselling-single-product-name
+{ 
+	text-align:center;
+	position:relative;
+	width:100%;
+}
+.crossselling-single-product a{
+	text-transform: uppercase;
+	text-align: center;
+}
+#cross-selling-manager-block .crossselling-single-product .crossselling-single-product-price
+{
+	font-size:12px;
+	font-weight:bold;
+	color:#08B7F9;
+	text-align:center;
+	position:absolute;
+	bottom:0;
+	width:152px;
+	left:0;
+}
+#cross-selling-manager-block .crossselling-addtocart
+{
+	text-align:center;
+	position:absolute;
+	margin: 0 0 0 20px;
+	top:200px;
+}
+
+#cross-selling-manager-block .crossselling-carnav-prev,
+#cross-selling-manager-block .crossselling-carnav-next
+{ 
+	position:absolute;
+	cursor:pointer;
+	text-indent:-10000px;
+	overflow:hidden;
+	width:9px;
+	height:18px;
+	top:110px;
+}
+/*#cross-selling-manager-block .crossselling-carnav-prev
+{
+	left:0;
+	background: url(img/thumbs_left.gif) 0 0 no-repeat;
+}
+#cross-selling-manager-block .crossselling-carnav-next
+{
+	right:0;
+	background: url(img/thumbs_right.gif) 0 0 no-repeat;
+}
+*/
+
+

@@ -1,0 +1,13 @@
+.online #main-wrapper {
+	background: #fff;
+}
+
+#header_logged {
+    height: auto;
+}
+#logo {
+    margin: 0;
+}
+#header_right {
+    height: 75px;
+}

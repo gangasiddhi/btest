@@ -1,0 +1,45 @@
+/* order-steps.tpl begins */
+#order_steps-follow {
+	margin: 25px 0;
+}
+#order_step {
+	height: 35px;
+    margin: auto;
+    width: 562px;
+}
+#order_step li {
+	background: url("../img/cart/step_standard.gif") no-repeat scroll left bottom;
+	float: left;
+	height: 35px;
+	text-align: center;
+	width: 184px;
+}
+#order_step li.step_start,
+#order_step li.step_start_current {
+	background: url("../img/cart/step_start.gif") no-repeat scroll left bottom;
+	height: 35px;
+	width: 96px;
+}
+#order_step li.step_start_current {
+    background: url("../img/cart/step_start_curent.gif") no-repeat scroll left bottom;
+}
+#order_step li.step_start img {
+	float: left;
+}
+#order_step li.step_end,
+#order_step li.step_end_current {
+	background: url("../img/cart/step_end.gif") no-repeat scroll left bottom;
+	width: 96px;
+	height: 35px;
+}
+#order_step li.step_end_current {
+	background: url("../img/cart/step_end_current.gif") no-repeat scroll left bottom;
+}
+#order_step li.step_end img {
+	float:right;
+}
+#order_step li.step_current {
+    background: url("../img/cart/step_current.gif") no-repeat scroll left bottom;
+    font-weight: bold;
+}
+/* order-steps.tpl ends */

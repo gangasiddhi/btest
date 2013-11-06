@@ -1,0 +1,14 @@
+<?php
+
+include(dirname(__FILE__).'/../../config/config.inc.php');
+include(dirname(__FILE__).'/../../header.php');
+include_once(dirname(__FILE__).'/mediator.php');
+
+if (!$cookie->isLogged())
+    Tools::redirect('authentication.php?back=order.php');
+$med = new mediator();
+echo $med->hookPaymentError($cart);
+
+include_once(dirname(__FILE__).'/../../footer.php');
+
+?>

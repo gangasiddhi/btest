@@ -1,0 +1,97 @@
+/*
+    Document   : Ettikett
+    Created on : Jul 26, 2012, 12:36:54 PM
+    Author     : Avish WebSoft Pvt Ltd(Gangadhar K.M).
+    Description:
+        Ettikett style changes done here
+*/
+
+/*ettikett-banner.tpl CSS, Landing-page part*/
+#etkt-discount {
+	margin: 468px 0 0 377px;
+	position: absolute;
+	height: 75px;
+	width: 528px;
+	z-index: 9999;
+	overflow:hidden;
+	background-color: #FFF;
+	box-shadow: 0 0 5px #ACACAC;
+	-moz-box-shadow:   0 0 5px #ACACAC;
+	-webkit-box-shadow: 0 0 5px #ACACAC;
+	-o-box-shadow: 0 0 5px #ACACAC;
+}
+#etkt-discount p {
+	clear: both;
+	color: #f541a7;
+	display: block;
+	font-family: Oswald, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: 2px;
+	line-height: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	padding:25px 0;
+}
+
+/*ettikett-banner.tpl CSS, return (redirection page) part*/
+#ettikett-share {
+	width: 100%;
+	height: 619px;
+	margin-top: 20px;
+	background: transparent url('back.jpg') top left no-repeat;
+}
+#ettikett-share p {
+	margin: 0;
+	font-family: Oswald, sans-serif;
+}
+.ettikett-shared-heading {
+	padding-top: 8px;
+}
+.ettikett-shared-heading {
+	font-family: Oswald;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.ettikett-shared-heading p.title {
+	font-size: 28px;
+}
+.ettikett-discount-value {
+	text-align: center;
+	margin-top: 17px;
+	font-family: Oswald;
+	text-transform: uppercase;
+}
+.ettikett-discount-value p {
+	color: black;
+	line-height: 40px;
+	font-size: 18px;
+}
+.ettikett-discount-value p.amount {
+	font-size: 45px;
+}
+.ettikett-shared-footer {
+	text-align: center;
+}
+.ettikett-shared-footer p {
+	margin: 6px 0 !important;
+}
+.ettikett-shared-footer p span {
+	color: #F2018A;
+	font-size: 14px;
+}
+.ettikett {
+    float: left;
+    margin: 0 0 20px 0;
+}
+
+.ettikett p {
+    color: #F2018A;
+    font-size: 1.1em;
+    font-style: italic;
+    margin: 0 0 10px 0;
+}

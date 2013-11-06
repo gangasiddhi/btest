@@ -1,0 +1,28 @@
+#social-network {
+	float: right;
+}
+#social-network li {
+	list-style-type: none;
+	float:left;
+	display: block;
+}
+#social-network #fb, #social-network #tt {
+	background: url("../../../img/facebook.png") no-repeat 0 0;
+}
+#social-network #tt {
+	background-image: url("../../../img/twitter.png");
+        margin: 0 10px;
+}
+#social-network #pt {
+	background-image: url("../../../img/pinterest.png");
+}
+#social-network #it {
+	background-image: url("../../../img/instagram.png");
+	margin: 0 10px;
+}
+#social-network li a {
+	display: block;
+	height: 24px;
+	width: 24px;
+	text-indent: -99999px;
+}

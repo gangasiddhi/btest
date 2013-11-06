@@ -1,0 +1,677 @@
+
+/*BEGIN:styling of mediator.tpl ---- paymentoptions*/
+hr {
+	background-color: #B2B2B2;
+}
+
+.final_price {
+	margin: 17px 0 0;
+	font-weight: bold;
+	float: left;
+}
+.payment_details {
+	/*margin: auto;*/
+	margin: 0;
+	width: 640px;
+}
+#payment_page {
+	margin: 20px 0 0 0;
+}
+#payment_buttons {
+	margin: auto;
+	width: 43%;
+}
+
+.not_selected_1,.selected_1{
+	background: url("../../../img/buttons/payment-options.png") no-repeat;
+    height: 25px;
+    margin: 0 15px 0 0;
+    width: 107px;
+}
+.not_selected_1{
+	background-position:  0 0;
+}
+.selected_1 {
+	background-position:  0 -28px;
+}
+
+.not_selected_2,.selected_2 {
+	background: url("../../../img/buttons/payment-options.png") no-repeat;
+	height: 25px;
+    margin: 0 15px 0 0;
+	width:133px;
+}
+.not_selected_2 {
+	background-position: 0 -56px
+}
+.selected_2 {
+	background-position:  0 -84px;
+}
+
+.not_selected_3,.selected_3 {
+	background: url("../../../img/buttons/payment-options.png") no-repeat;
+	height: 25px;
+	width:134px;
+}
+.not_selected_3 {
+	background-position: 0 -112px
+}
+.selected_3 {
+	background-position:  0 -140px;
+}
+
+#cod_desc p {
+	color: #414042;
+}
+/*End:styling of mediator.tpl ---- payment options*/
+
+/* The Payment Page[credit card details,pre-sales_agreement,sales_agreement*/
+form {
+	float:none;
+}
+ #payment_details {
+    margin: auto;
+    width: 640px;
+	min-height: 578px;
+}
+ fieldset  {
+    margin-top: 12px;
+}
+span.payment_steps {
+	color: #414042;
+	font-size: 1.1em;
+	font-weight: bold;
+	width:100%;
+}
+#step_3,#step_4{
+	float: left;
+	margin:10px 0 10px;
+	width: 100%;
+}
+#display-total {
+    float: left;
+    width: 100%;
+}
+#step_5{
+	margin:10px 0 30px;
+	width: 635px;
+}
+/*Begin:The installment part the five steps
+#payment_page form {
+	min-height: 500px;
+}
+#step_3,#step_4,#step_5{
+	margin:auto;
+	width: 635px;
+}
+#step_1{
+	min-height:74px;
+	margin:45px auto 0;
+	width: 635px;
+}
+#step_2{
+	min-height:96px;
+	margin:auto;
+	width: 635px;
+}
+#step_2 .label-bottom-text {
+	float: left;
+    margin: 4px 0 0;
+    width: 100%;
+}
+#step_3{
+	min-height:145px;
+}
+#step_5 {
+	min-height:382px;
+}
+#payment_page hr {
+	  margin: 0 0 10px;
+}
+#step_4{
+	min-height:346px;
+}
+#step5{
+	min-height:300px;
+}
+#step6 {
+	min-height:60px;
+}
+
+#step_1 select {
+	margin: 0 0 0 5px;
+}
+#step_1 h3{
+	color: #F644C6;
+    font-family: arial;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 0 15px;
+}
+.step {
+	display:none;
+}
+#credit_cards_supported  {
+	margin-top: 15px;
+	float: left;
+}
+#credit_cards_supported button {
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #f973d4;
+    display: block;
+    height:28px;
+    width:68px;
+	float:left;
+	margin: 0 20px 0 0;
+	padding:2px;
+}
+#credit_cards_supported button img {
+	height: 20px;
+	width: 60px;
+}
+#credit_cards_supported button.pinkbg {
+	background: none repeat scroll 0 0 #f973d4;
+    border: 1px solid #f973d4;
+}
+#credit_cards_supported button.pinkbg2 {
+	background: none repeat scroll 0 0 #f973d4;
+    border: 1px solid #f973d4;
+}
+#banka-logo{
+	width: 89px;
+	height:35px;
+	float:right;
+}
+#bu_banks {
+	 margin: 15px 0 20px;
+}
+#bu_banks img {
+	margin:0 20px 0 0;
+	border: 1px solid #f973d4;
+	padding: 2px;
+}
+#bu_banks img:hover {
+	border: 3px solid #f973d4;
+	padding:0;
+}End:The installment part the five steps*/
+table#installment_details {
+	width:365px;
+    /* margin: 5px 0 10px;*/
+}
+
+table#installment_details thead tr td{
+	 color: #414042;
+	 text-align: center;
+	 padding:5px 0 0;
+	 font-weight: bold;
+}
+table#installment_details thead tr th.gv_width {
+	width:70px;
+}
+table#installment_details tr {
+	height: 20px;
+}
+table#installment_details tr td{
+	padding: 0 10px;
+    text-align: center;
+}
+
+ #payment_method {
+	margin: 15px 0 10px;
+	background-color: #eeeeee;
+}
+#credit-top-left {
+    float: left;
+}
+#credit-header{
+	float:left;
+	margin-left: 10px;
+}
+#credit-top-right {
+    position: absolute;
+    right: 0;
+    width: 145px;
+    top: 25px;
+}
+ #payment_method h3 {
+    font-size:1.2em;
+    margin: 0;
+	color:#000;
+    font-family:arial;
+    font-weight:bold;
+}
+.credit-card-entries {
+	float: left;
+	margin-bottom:10px;
+	width: 100%;
+}
+.credit-card-entries img {
+	margin-left: 10px;
+}
+.credit-label {
+	float: left;
+    margin: 0 15px 0 0;
+    text-align: right;
+    width: 225px;
+}
+.credit-input {
+	float:left;
+}
+#credit-card-details {
+    float: left;
+    width: 100%
+}
+#credit-card-details span {
+	font-size: 1em;
+	font-weight: bold;
+	line-height:1.4em;
+	display: block;
+}
+.label-bottom-text,#credit-card-details .label-bottom-text {
+	font-size: 0.85em;
+	color:#414042;
+	font-weight: normal;
+	line-height:1em;
+}
+ #payment_method  fieldset input#ccname{
+	width:215px;
+}
+ #payment_method  fieldset input#ccnum{
+	width:215px;
+}
+ #payment_method  fieldset input#ccvv2{
+	 width: 50px;
+}
+#ccnum1 {
+    width: 49px;
+}
+/*#order table , #order-confirmation table{
+	border-spacing: 0;
+	border-collapse: collapse;
+}*/
+ .formContainer {
+    border: 1px solid #d3d3d3;
+    padding: 15px;
+    float: left;
+    width: 605px;
+    position: relative;
+}
+ .sales_agreement iframe {
+    float: left;
+}
+ .sales_agreement iframe {
+	padding-top:0px;
+	padding-bottom:10px;
+	margin:10px 0 0 0;
+	height: 90px;
+	width:635px;
+	overflow: scroll;
+	overflow-x: hidden;
+    overflow-y: scroll;
+	overflow:-moz-scrollbars-vertical;
+}
+ .sales_agreement p,#order-conf p {
+	font-size:0.9em;
+}
+/*#order .sales_agreement strong {
+	font-size: 1.2em;
+	color:#414041;
+	font-weight: bold;
+	float: left;
+	width:100%;
+	margin-bottom: 20px;
+}
+ ol.sales_agree_list p{
+	line-height: 1.2em;
+	margin: 0 0 5px;
+	color: #010001;
+}
+ ol.sales_agree_list {
+	padding-left:25px;
+}
+ ol.sales_agree_list li {
+	list-style-type: decimal;
+	 margin: 15px 0 0 0;
+}
+ol.sales_agree_list > li {
+	margin: 6px 0 0 0;
+}
+ ol.sales_agree_list div {
+	margin-top: 10px;
+}
+ ol.sales_agree_list ol.sublist li {
+	margin-bottom: 10px;
+	list-style-type: none;
+}
+ol.sublist p {
+	margin: 0;
+}*/
+ .check-agree {
+	clear: both;
+    float: left;
+    width: 100%;
+   /*margin: 0 0 10px;*/
+}
+ .sales_agreement a, .check-agree  a, a#show-instal-popup  {
+	color:#F643C6;
+	text-decoration: underline;
+}
+a#show-instal-popup  {
+	display: block;
+}
+/*table.consumer_info {
+	border: 1px solid #000;
+	height: 207px;
+	margin: 15px 0;
+	width:548px;
+	border-collapse: collapse;
+}
+table.consumer_info thead {
+	 height: 55px;
+}
+table.consumer_info th{
+    padding-left:3px;
+    text-align: left;
+	border-left: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+table.consumer_info tbody {
+	height: 150px;
+}
+table.consumer_info tr td {
+	border-left: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	padding-left: 3px;
+	width: 80px;
+}
+table.consumer_info tr {
+	height: 70px;
+}
+#order .sales_agreement span {
+	font-weight: bold;
+}*/
+.btn-place-order {
+    background: url("../../../img/buttons/place_order_btn.png") no-repeat 0 0;
+    width: 212px;
+    height: 40px;
+    border: none;
+}
+.btn-place-order2 {
+    background: url("../../../img/buttons/place_order_btn2.png") no-repeat 0 0;
+    width: 132px;
+    height: 25px;
+    border: none;
+    float:left;
+}
+#final_total, #submit-payment {
+	margin: auto;
+    width: 320px;
+	font-weight: bold;
+	float:left;
+}
+#submit-payment {
+    text-align: right;
+}
+/*The Payment Page*/
+/*order-confirmation page*/
+/*order-confirmation*/
+#order-confirmation #order-detail-content {
+    float:left;
+	margin:0 0 20px 0;
+}
+#order-confirmation div.cart_navigation {
+	float: none;
+    margin: auto;
+    width: 135px;
+}
+#order-confirmation table#order_summary tr td.order_product {
+	padding: 0 0 0 48px;
+}
+#order-confirmation  table#order_summary thead th.order_product {
+    padding: 0 0 0 48px;
+}
+#order-confirmation table#order_summary tfoot tr td.order_total_label {
+    padding: 0 45px 0 0;
+}
+h5.order_product_name {
+	text-transform: uppercase;
+}
+#order-conf {
+	float:left;
+	padding: 0px 0 20px 10px;
+}
+table#order_summary tfoot tr td.order_total_price {
+	padding: 0 35px 0 0;
+}
+/*order-confirmation*/
+
+table#order_summary {
+    width:960px;
+}
+#order-confirmation table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table#order_summary thead tr{
+	background-color:#eb059c;
+	height:40px;
+}
+table#order_summary tfoot tr{
+	background-color:#eefaf9;
+	height:35px;
+}
+table#order_summary thead th{
+	text-align: left;
+	color: #FFFFFF;
+	font-size: 1.1em;
+	font-family: Helvetica,inherit;
+}
+ table#order_summary tr th.order_total {
+	text-align: center;
+    width: 123px;
+}
+table#order_summary thead th.order_product {
+	width:450px;
+}
+table#order_summary tr th.cart_unit {
+	width:170px;
+}
+table#order_summary tr th.order_quantity {
+	width:140px;
+	padding: 0 0 0 15px;
+}
+table#order_summary tr.order_item td{
+	border-bottom:1px solid #b2b2b2;
+}
+table#order_summary tr.last_item td {
+	border:none;
+}
+table#order_summary tr td.order_unit {
+	 padding: 0 0 0 13px;
+}
+table#order_summary tr td.order_total {
+    padding: 0 35px 0 0;
+    text-align: right;
+}
+table#order_summary tfoot tr td.order_total_label {
+	 text-align: right;
+	 padding: 0 70px 0 0;
+}
+tfoot tr td.order_total_price {
+    padding: 0 20px 0 0;
+    text-align: right;
+}
+table#order_summary tr  {
+	height: 75px;
+}
+table#order_summary td.order_unit span{
+    color: #F2018A;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+table#order_summary tr td.order_total,.order_discount_price {
+	font-size:0.9em;
+	font-weight: bold;
+}
+.order_total_price {
+    font-weight: bold;
+}
+.order_total_label span {
+	color: #F2018A;
+    margin-right: 10px;
+}
+
+td.order_quantity div.quantity_order {
+	border: 1px solid #e5e5e5;
+    float: left;
+    margin: 0 3px;
+    padding: 2px 0;
+    text-align: center;
+    width: 40px;
+}
+td.order_product div.product_image {
+	float: left;
+	border: 1px solid #e5e5e5;
+}
+td.order_product div.product_image a{
+	display: block;
+    height: 60px;
+}
+td.order_product div.about-product{
+    float: left;
+	padding: 15px 0 0 10px;
+}
+
+table#order_summary tr.order_discount,table#order_summary tr.shipping_cost {
+	height:32px;
+}
+.order_discount_price {
+	padding: 0 35px 0 0;
+	text-align:right;
+}
+.shipping_cost td span {
+    float: right;
+    font-size: 0.9em;
+    font-weight: bold;
+    height: 32px;
+    padding: 0 35px 0 0;
+}
+.shipping-label{
+    float: left;
+}
+
+/*Installment Details*/
+#order-confirmation table#order_summary tr.installment-details{
+    height: 30px;
+}
+.installment-label{
+    padding: 0 65px 0 0;
+    text-align: right;
+}
+.installment-count{
+    padding: 0 95px 0 0;
+    text-align: center;
+}
+.installment-details td span{
+    float: right;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 0 35px 0 0;
+}
+/*Discount Details*/
+.discount-description{
+     padding: 0 215px 0 0;
+    text-align: right;
+}
+.discount-name{
+    text-align: left;
+}
+/*The payment_error page styling begins here*/
+ .errorContainer {
+    float: left;
+}
+/*The payment_error page styling ends here*/
+
+/* Payment List*/
+.payment-list {
+	margin:15px auto 100px;
+	/*width: 100%;*/
+}
+.payment-list-item {
+	float: left;
+	margin: 0 28px 0 0;
+	border: 2px solid #B2B2B2;
+	cursor: pointer;
+
+}
+.payment-list-item img{
+	padding: 10px 15px;
+}
+
+
+/*#installment_details{
+	width: 640px;
+	margin: auto;
+	min-height: 180px;
+}*/
+
+/*Popup installment CSS*/
+
+#popup-installment{
+	margin: auto;
+	width: 800px;
+	height: 600px;
+}
+.pop-bank-instal{
+	margin: auto;
+	float: left;
+	padding: 10px 40px;
+}
+.pop-bank-instal table{
+	width: 150px;
+}
+.pop-bank-instal table tr{
+	width: 150px;
+	line-height: 25px;
+}
+.pop-bank-instal table tr.spacer{
+	height: 7px;
+}
+.pop-bank-instal table tr.helight{
+	background-color: #F9D6E4;
+}
+.pop-bank-instal table thead{
+	height: 75px;
+}
+
+/*.pop-bank-instal table tr td{
+	font-family: "Arial",sans-serif;
+}*/
+
+/*Turkcell CSS*/
+#turkcell-logo {
+	height: 70px;
+	width: 205px;
+}
+#turkcell-checkout{
+	margin: 0 235px;
+}
+#turkcell-banner {
+	height: 109px;
+	width: 120px;
+	margin-top: 25px;
+	margin-right: 25px;
+}
+#turkcell-agree {
+	margin-left: 45px;
+}
+
+.tcw #fancybox-bg-n, .tcw #fancybox-bg-ne, .tcw #fancybox-bg-nw,
+.tcw #fancybox-bg-s, .tcw #fancybox-bg-se, .tcw #fancybox-bg-sw,
+.tcw #fancybox-bg-e, .tcw #fancybox-bg-w {
+	background-image: none;
+}
+.tcw #fancybox-outer {
+	background: none;
+}

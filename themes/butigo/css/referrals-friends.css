@@ -1,0 +1,442 @@
+/*** styling for Invite friends and style point pages starts here*/
+/*.invite_friends_image {
+ margin-top:8px;
+}*/
+#invite-friends-container {
+/*    margin: auto;*/
+    width: 550px;
+	float: left;
+}
+#email-area {
+	margin: 20px auto;
+    width: 398px;
+
+}
+#email-operators {
+	margin: auto;
+    width: 314px;
+}
+#social_network {
+	 background: url("../img/invite_friends/invite_fbtt_bg.png") no-repeat 0 0;
+	 width:548px;
+	 height: 63px;
+	 float:left;
+}
+#invite-facebook {
+	float: left;
+    margin: 4px 0 0 28px;
+}
+#invite-twitter {
+	float: right;
+    margin: 3px 28px 0 0;
+}
+/*#referralprogram-friends*/ #container {
+	width:580px;
+	color:#414042;
+}
+
+/*#referralprogram-friends*/ #sideRight {
+    color: #414042;
+    margin: 25px 0 0;
+    width: 380px;
+}
+/*#referralprogram-friends*/ #sideRight h4 {
+	color: #B7B7B7;
+	margin-bottom:7px;
+	text-transform: uppercase;
+}
+#sideRight #first-invite h4 {
+	color: #f2018a;
+	margin-bottom:7px;
+	text-transform: uppercase;
+}
+/*#referralprogram-friends*/ #sideRight p {
+	color:#414042;
+	line-height:15px;
+	font-size:12px;
+}
+/*#referralprogram-friends*/ fieldset {
+	border:none;
+}
+#invite-friends {
+	float:left;
+	margin: 20px 0 0 0;
+}
+#invite-friends #enter-emails tbody tr td input {
+    width: 220px;
+}
+#invite-friends p {
+   color:#000;
+   font-size: 1em;
+}
+#invite-friends span {
+   font-size: 1em;
+   font-weight: bold;
+}
+table.std {
+    border: 1px solid #b2b2b2;
+    border-spacing: 0;
+	border-collapse: collapse;
+	height: 160px;
+	width: 548px;
+}
+table.std thead  {
+    background-color: #F3E4EC;
+    width: 548px;;
+    float:left;
+    height: 22px;
+}
+table.std thead th.item_width {
+    font-weight: bold;
+    height: 24px;
+    text-align: center;
+    width: 274px;
+}
+table.std tbody tr td {
+    padding: 0 10px 5px 12px;
+}
+table.std  tbody {
+    width:548px;
+    float:left;
+	margin: 7px 0 0;
+}
+.invite-link {
+    background-color:#f3e4ec;
+    width:328px;
+    padding:5px;
+}
+/*#referralprogram-friends #container .send-invites {
+    background: url("../img/invite_friends/send_invites_btn.gif") no-repeat 0 0;
+	float:right;
+    cursor: pointer;
+    border:none;
+	height: 41px;
+	width:164px
+}*/
+#invite {
+    margin:10px 5px 0 0;
+}
+#invite a {
+	float:left;
+}
+/*#referralprogram-friends*/ .email-friends {
+	width:532px;
+	padding:8px;
+	height: 90px;
+}
+/*#referralprogram-friends*/ .sidebar a,
+/*#referralprogram-friends*/ #container a {
+    color:#f2018a;
+    font-weight:bold;
+}
+#personal-invite,
+#already-invited {
+    height:135px;
+}
+#personal-invite input {
+    font-weight:bold;
+    font-style:italic;
+}
+#invite-message {
+    color:#000;
+    font-weight:bold;
+    margin: 20px 0 20px 20px;
+    font-size:12px;
+}
+.sponsor{
+	float:left;
+	width:100%;
+}
+.month{
+	text-align: center;
+	width:100%;
+	color: #b7b7b7;
+    font-family: oswald;
+    font-size: 20px;
+    padding: 30px 0px 10px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+.sponsor table{
+	width:100%;
+	border-spacing: 0;
+
+}
+.sponsor table tr th{
+	color:#414042;
+	height:35px;
+	border: solid 1px #e6e7e8;
+	background: #e6e7e8;
+	font-family: arial;
+}
+.sponsor table tr td{
+	border: solid 1px #e6e7e8;
+	height:30px;
+	color:#77787b;
+	padding-left: 5px;
+}
+.sponsor_header{
+	text-align: left;
+	padding-left: 5px;
+}
+.sponsor_count{
+	text-align: center;
+	width:140px;
+}
+.sponsor_email{
+	width:400px;
+	text-align: left;
+}
+
+/*style points styling begins here*/
+#style-points-container {
+	 background: url("../img/progress_outer.jpg") no-repeat 0 0;
+	 height: 261px;
+	 width:939px;
+	 margin:auto;
+	 padding: 1px 0 35px 0;
+}
+#stylepoints-top {
+	background-color: #FFFFFF;
+    border: 1px solid #E6E6E6;
+	margin: auto;
+    position: relative;
+    top: 100px;
+    width: 760px;
+}
+#top_container,#bottom-container {
+	margin: 20px auto 10px;
+    width: 700px;
+}
+#top_container {
+	height: 40px;
+}
+#top_container > div {
+float: left;
+width: 350px;
+}
+
+#bottom-container {
+	height: 15px;
+}
+#my_style_points {
+	float:left;
+}
+#credit {
+	float: right;
+    text-align: right;
+}
+#learn_more {
+	float:left;
+}
+#pending {
+	float: left;
+	font-size: 17px;
+	width: 330px;
+	height: 24px;
+}
+#pending  img {
+    margin-left: 2px;
+    margin-right: -1px;
+    position: relative;
+    top: 3px;
+}
+.style_label,#my_style_points .style-point-value {
+	font-size: 1.15em;
+}
+.color_pink,#bottom-container .color_pink a,.style-point-value {
+	font-size: 0.8em;
+	color:#f2018a;
+}
+#bottom-container .color_pink,#bottom-container .color_pink a,#pending .style-point-value   {
+	font-size:0.9em;
+}
+#style-point-links {
+    height: 155px;
+/*    margin: auto;*/
+	width: 960px;
+}
+/*#style-point-links*/ h4 {
+/*    margin:  0 0 0 18px;*/
+	font-family: 'Oswald';
+	color:#B7B7B7;
+	text-transform: uppercase;
+}
+#style-point-links ul {
+    float:left;
+    margin-top: 15px;
+}
+#style-point-links ul li {
+/*    padding: 0 38px 0 0 ;*/
+    float: left;
+}
+
+#style-point-links ul li#auto_padding {
+    padding: 0 67px;
+}
+#style-points {
+	margin: 30px 0;
+	min-height:175px;
+	width: 960px;
+}
+#style-points p.success {
+    margin: 0 0 10px;
+}
+#style-points h3 {
+    font-size: 2em;
+    margin: 0;
+	color:#000;
+}
+#track-invites {
+    float:left;
+}
+#track-emails {
+    width:310px;
+    margin:0 11px 0 0;
+}
+#track-style {
+    width:535px;
+}
+.track-invites-inside {
+    border:1px solid #dDdEd1;
+    min-height:35px;
+    margin-bottom:15px;
+    float: left;
+    padding:15px 0 0 20px;
+}
+.track-invites-table-inside {
+    margin:0 0 0 15px;
+}
+.track-invites-inside div,.track-invites-table-inside div:first-child {
+    float:left;
+    margin-right:10px;
+}
+.track-history-subscribe-friends, .track-history-pending-friends {
+    width:370px;
+    margin:0 12px 10px 0;
+}
+
+#track-style-points-table  {
+    width:534px;
+}
+table.emails {
+    width:370px;
+}
+table#style-points-history {
+    width:534px;
+}
+.track-history {
+    border:1px solid #dDdEd1;
+    min-height:90px;
+    padding:15px 10px 10px 10px;
+    float:left;
+}
+.invites-table {
+    clear: left;
+    float: left;
+}
+.invites-table input
+{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: medium none;
+    cursor: pointer;
+    padding: 0;
+    width: 80px;
+}
+thead .invites-table-heading {
+    background-color:#f2018a;
+    border:1px solid #F643C6;
+    color: #FFFFFF;
+}
+.invites-table table {
+    border-collapse:collapse;
+    margin-top:10px;
+}
+.invites-table th {
+    text-align:left;
+    padding:2px 10px 2px 5px;
+}
+.invites-table tbody tr  {
+border:1px solid #dDdEd1;
+}
+.invites-table tbody tr th {
+    color:#fff;
+}
+a.terms-conditions-link {
+    color:#F643C6;
+    font-weight:bold;
+    font-size:1em;
+}
+#track-style-points-table p.stared {
+    margin:3px 0 0 0 ;
+    float: left;
+}
+.stared{
+    font-style:italic;
+}
+/*style points styling ends here*/
+/*** styling for Invite friends and style point pages ends here*/
+#ero{
+	font-size: 12px;
+	width:35px;
+	height:auto;
+/*	margin-left: 12px;*/
+	text-transform: uppercase;
+}
+p.success {
+    color: #00FF00;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 0 0 50px;
+	background-color: #ffffff;
+}
+.success {
+    padding: 15px 15px 38px;
+}
+.error
+{
+	float:left;
+padding: 15px 15px 38px;
+}
+/*.message{
+	float:right;
+}*/
+
+/*Survey Vs Register*/
+#svr_padding {
+    padding: 0 67px 0 0;
+}
+
+/*Survey Vs Register*/
+
+/* button chnges through css */
+
+#email-address a.buttonlarge{
+        cursor: pointer;
+        display: inline-block;
+        font: bold 15px/100% Arial,Helvetica,sans-serif;
+        height: 25px;
+        outline: medium none;
+       line-height: 3em;
+        text-align: center;
+        text-decoration: none;
+          height: 42px;
+          color: #fff;
+          float: left;
+          text-transform: uppercase;
+              margin: 0 0 10px 80px;
+               padding: 0 2em;
+      width: auto;
+}
+
+
+
+#track-email-con {
+    width: 403px;
+    display: inline-block;
+    float: left;
+}
+#style-points .butigo-pagination {
+    margin-top: 10px;
+}

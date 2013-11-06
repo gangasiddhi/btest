@@ -1,0 +1,14 @@
+Merhaba {firstname_friend},
+
+Seni yeni keşfettiğim Ayakkabı, Çanta, ve Takı kulübü Butigo'ya davet etmek istiyorum.
+
+Butigo Türkiye'nin ünlü tasarımcılarıyla yaptığı iş birliğiyle, son dünya trendlerinden, sadece sana özel butiğini yaratıyorve sen de bu butikten alışveriş yapabiliyorsun. 
+
+Yani özetle Butigo'da ünlüler senin imaj danışmanın oluyorlar, ve sen de son dünya trendlerini giyinip, tarzını herkesten önde tutuyorsun.
+
+Buradan benim davetlim olarak katılabilirsin:  
+{shop_url}{link}
+
+{message_friend}
+
+Görüşürüz.

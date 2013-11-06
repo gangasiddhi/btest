@@ -1,0 +1,56 @@
+/*faqs styling begins here*/
+#faq_options {
+	text-align: right;
+	margin: 20px 0 0 0;
+}
+#faq_options a {
+	color: #f2018a;
+	font-weight: bold;
+}
+dl.faq {
+	padding-bottom: 10px;
+/*	margin-left: 40px;*/
+	color: #F643C6;
+	width:655px;
+	border-bottom: 1px solid #F643C6;
+}
+dl.faq dt {
+	background: url("../../../img/buttons/pinkarrow.png") no-repeat 0px 13px;
+	border-top: 1px solid #f2018a;
+	margin-top: 10px;
+	padding-left: 18px;
+	padding-top: 10px;
+}
+dl.faq dt a {
+	background-color: #FFF;
+}
+.toggle_dd a:link,.toggle_dd a:visited ,dd a{
+    color:#f2018a;
+    text-decoration: none;
+    font-weight: bold;
+}
+.toggle_dd a:active,.toggle_dd a:hover,dd a:hover {
+	color: #F643C6;
+}
+
+dl.faq dd {
+    color: #666666;
+    line-height: 1.6em;
+    margin-bottom: 10px;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+.faq ol {
+    padding: 10px 0 0 20px;
+}
+.faq dd ul {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 40px;
+}
+.faq ol li {
+    list-style: decimal outside none;
+    margin-top: 1em;
+    padding: 0 0 0 10px;
+}
+/*faqs styling ends here*/

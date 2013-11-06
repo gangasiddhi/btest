@@ -1,0 +1,1 @@
+<div style="margin-top: 40px;"><img src="{$img_dir}showroom/no-deal.gif" alt="{l s='no-deal'}" title="{l s='no-deal'}"/></div>

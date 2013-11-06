@@ -1,0 +1,13 @@
+Merhaba {firstname},
+
+Siparişiniz #{id_order} şu anda hazırlanıyor.
+
+
+Ürününüz kargoya verildiği zaman(ortalama 3 gün) size bir email daha göndereceğiz
+O zamana kadar aklınıza takılan bir soru olursa biz buradayız.
+
+Sevgiler,
+Butigo Müşteri Mutluluk Ekibi
+
+Tüm sorularınız için bize  destek@butigo.com adresinden ulaşabilirsiniz. (216) 418 26 26
+© 2011 Butigo.com, Tüm Hakları Saklıdır.

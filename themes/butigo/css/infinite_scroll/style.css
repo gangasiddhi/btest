@@ -1,0 +1,76 @@
+body {
+	font-size: 62.5%;
+	padding: 0;
+	margin: 0;
+}
+
+.loading-bar {
+	padding: 10px 20px;
+	display: block;
+	text-align: center;
+	box-shadow: inset 0px -45px 30px -40px rgba(0, 0, 0, 0.05);
+	border-radius: 5px;
+	margin: 20px 0;
+	font-size: 2em;
+	font-family: "museo-sans", sans-serif;
+	border: 1px solid #ddd;
+	margin-right: 1px;
+	font-weight: bold;
+	cursor: pointer;
+	position: relative;
+}
+
+.loading-bar:hover {
+	box-shadow: inset 0px 45px 30px -40px rgba(0, 0, 0, 0.05);
+}
+
+#content {
+	width: 800px;
+	margin: 0px auto;
+}
+
+#content h1 {
+	font-family: "chaparral-pro", sans-serif;
+	color: #444;
+	font-size: 4.2em;
+}
+
+#content h1 a {
+	color: #444;
+	text-decoration: none;
+}
+
+#content h1 a:hover {
+	color: #666;
+}
+
+#content p {
+	font-size: 2em;
+	line-height: 1.7em;
+	font-family: "museo-sans", sans-serif;
+	text-align: justify;	
+}
+
+#content hr {
+	border-bottom: 1px solid #eee;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+}
+
+
+#travel {
+	padding: 10px;
+	background: rgba(0,0,0,0.6);
+	border-bottom: 2px solid rgba(0,0,0,0.2);
+	font-variant: normal;
+	text-decoration: none;
+}
+
+#travel a {
+	font-family: 'Georgia', serif;
+	text-decoration: none;
+	border-bottom: 1px solid #f9f9f9;
+	color: #f9f9f9;
+	font-size: 1.5em;
+}

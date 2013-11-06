@@ -1,0 +1,56 @@
+/* birthday-campaign.tpl.tpl styling begins here*/
+#birthday-container{
+	margin: 65px auto;
+	width:960px;
+	float:left;
+}
+
+#birthday-left-container{
+	width:700px;
+	float:left;
+}
+
+#birthday-right-container{
+	width:200px;
+	float:left;
+}
+
+#birthday-left-container p{ 
+	text-align: center;
+}
+
+#birthday-form{
+	float:none;
+}
+.birthday-heading{
+	color: #F2018A;
+    font-family: 'Oswald',sans-serif;
+    font-size: 37px;
+    letter-spacing: 1px;
+    line-height: 45px;
+    padding: 0 25px;
+    text-transform: uppercase;
+}
+
+.birthday-subheading{
+	color: #000000;
+    font-size: 15px;
+	padding:0 100px;
+}
+
+p.birthday-date-month label{
+	color: #B7B7B7;
+    font-family: 'Oswald',sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+	padding:0 10px;
+    text-transform: uppercase;
+}
+
+p.birthday-date-month span{
+	padding: 0 10px;
+}
+
+p.birthday-date-month span select{
+	vertical-align: 2px;
+}
